@@ -16,7 +16,7 @@ export const Home = () => {
   return (
     <Container className="App">
       
-      <form action="http://127.0.0.1:5000/api/authorize">
+      <form action="/api/authorize">
         <SignInButton type="submit" value="Sign in" />
       </form>
     </Container>
